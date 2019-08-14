@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>Creare_Abtesting</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/OSL-3.0">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Split testing Magento using 3 seperate Google Analytics accounts - and 2 themes.</summary>
+    <description>If you've ever wanted to split-test Magento using themes (rather than individual pages) you can now do so.&#xD;
+&#xD;
+Simply set up a few extra analytics accounts, install our module and then analyse the differences between your visitors behaviour.&#xD;
+&#xD;
+The module will server 50% of your visitors your default theme, the other 50% will be served your new theme. &#xD;
+&#xD;
+One master analytics account then keeps track of all data, whereas 2 sub-accounts will only track the new theme vs. the old theme.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Robert Kent</name><user>CreareGroup</user><email>magento@creare.co.uk</email></author></authors>
+    <date>2013-07-30</date>
+    <time>12:29:11</time>
+    <contents><target name="magelocal"><dir name="Creare"><dir name="Abtesting"><dir name="Helper"><file name="Data.php" hash="d9d134cccf8b6e4ea6c355ed21e64fd9"/></dir><dir name="Model"><file name="Observer.php" hash="37d434b7058b9020917104d320fc1306"/><file name="Package.php" hash="e4bdaac80c0a6dfcc5d1bddb058f22fb"/><dir name="Source"><file name="Design.php" hash="a3d5189ba9e68436656f4aca5496471d"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="e609a0349bd84701bce6890793449fd4"/><file name="config.xml" hash="e81fcb2110d6a442c23b6232437fb0dc"/><file name="system.xml" hash="5f85942cf016ec4a88199d83cf17f77e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Creare_Abtesting.xml" hash="072f6e9dd304888fc47fca724b8193b9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="creare_abtesting.xml" hash="1d193e68f5f4f28431a06124cac6d377"/></dir><dir name="template"><dir name="creare"><dir name="abtesting"><file name="ga.phtml" hash="07544a8b83616d4a747ddb95af791f48"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

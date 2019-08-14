@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Creare_Abtesting",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Split testing Magento using 3 seperate Google Analytics accounts - and 2 themes.",
+    "authors": [
+    {
+        "name": "Robert Kent",
+        "email": "magento@creare.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
